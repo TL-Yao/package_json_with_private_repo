@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@TL-Yao/private_yarn@git+ssh://git@github.com/TL-Yao/private_yarn.git#025b75f":
+  version "0.0.1"
+  resolved "git+ssh://git@github.com/TL-Yao/private_yarn.git#025b75f7245f410315425085ad6906022ecae8d8"
+  dependencies:
+    "@google-cloud/vision" "0.8.0"
+    angular "1.3.19"
+    boom ""
+    console-io "2.6.3"
+    cookie-signature "1.0.2"
+    express "4.1.1"
+    handlebars-ex "0.0.2"
+    jquery "3.0.0-alpha1"
+    tinymce "4.2.3"
+
 "@google-cloud/common-grpc@^0.1.1":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@google-cloud/common-grpc/-/common-grpc-0.1.6.tgz#4f7ed73e63eda13e02d9572be8c56166aa3e2055"
@@ -1623,20 +1637,6 @@ node-uuid@~1.4.7:
   resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
   integrity sha1-sEDrCSOWivq/jTL7HxfxFn/auQc=
 
-"nodejs-repo-tools@git+ssh://git@github.com/TL-Yao/private_yarn.git":
-  version "0.0.1"
-  resolved "git+ssh://git@github.com/TL-Yao/private_yarn.git#025b75f7245f410315425085ad6906022ecae8d8"
-  dependencies:
-    "@google-cloud/vision" "0.8.0"
-    angular "1.3.19"
-    boom ""
-    console-io "2.6.3"
-    cookie-signature "1.0.2"
-    express "4.1.1"
-    handlebars-ex "0.0.2"
-    jquery "3.0.0-alpha1"
-    tinymce "4.2.3"
-
 nopt@^4.0.1:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-4.0.3.tgz#a375cad9d02fd921278d954c2254d5aa57e15e48"
@@ -2362,6 +2362,11 @@ tinymce@4.2.3:
   resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.2.3.tgz#8d742fdc17026fac53e779a1a63ec2756e38965d"
   integrity sha1-jXQv3BcCb6xT53mhpj7CdW44ll0=
 
+tinymce@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.6.0.tgz#b5eda4888e1a607ddd545619cfaa137d59de14b4"
+  integrity sha512-f8LsyT80j8hD4wrL8Sac0DWDG5k10cDyykL/qkJ6kexn1KMt7w1ByrGlUm53XCYDqtavBA5snTU7odioMwSXSQ==
+
 to-array@0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/to-array/-/to-array-0.1.4.tgz#17e6c11f73dd4f3d74cda7a4ff3238e9ad9bf890"
@@ -2448,9 +2453,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.0.3:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.1.tgz#2749d4b8b5b7d67460b4a418023ff73c3fefa60a"
-  integrity sha512-EWhx3fHy3M9JbaeTnO+rEqzCe1wtyQClv6q3YWq0voOj4E+bMZBErVS1GAHPDiRGONYq34M1/d8KuQMgvi6Gjw==
+  version "3.13.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.2.tgz#fe10319861bccc8682bfe2e8151fbdd8aa921c44"
+  integrity sha512-SbMu4D2Vo95LMC/MetNaso1194M1htEA+JrqE9Hk+G2DhI+itfS9TRu9ZKeCahLDNa/J3n4MqUJ/fOHMzQpRWw==
 
 ultron@1.0.x:
   version "1.0.2"
