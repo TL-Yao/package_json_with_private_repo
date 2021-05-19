@@ -1,20 +1,20 @@
 {
-    "name": "example-javascript-yarn",
-    "version": "0.0.1",
-    "private": true,
-    "author": "srcclr <hello@srcclr.com>",
-    "description": "A node project to demostrate srcclr scans for Yarn Repo",
-    "dependencies": {
-      "@google-cloud/vision": "0.8.0",
-      "jquery": "3.0.0-alpha1",
-      "express": "4.1.1",
-      "boom": "",
-      "tinymce": "4.2.3",
-      "console-io": "2.6.3",
-      "angular": "1.3.19",
-      "@TL-Yao/private_yarn": "git+ssh://git@github.com/TL-Yao/private_yarn.git#025b75f",
-      "@deputy/webpack-concat-plugin": "git+ssh://git@github.com:newscorpaus/webpack-concat-plugin.git#semver:^v3.1.0",
-      "cookie-signature": "1.0.2",
-      "handlebars-ex": "0.0.2"
-    }
+  "name": "example-javascript-yarn",
+  "version": "0.0.1",
+  "private": true,
+  "author": "srcclr <hello@srcclr.com>",
+  "description": "A node project to demostrate srcclr scans for Yarn Repo",
+  "dependencies": {
+    "@google-cloud/vision": "0.8.0",
+    "jquery": "3.0.0-alpha1",
+    "express": "4.1.1",
+    "boom": "",
+    "tinymce": "5.6.0",
+    "console-io": "2.6.3",
+    "angular": "1.3.19",
+    "@TL-Yao/private_yarn": "git+ssh://git@github.com/TL-Yao/private_yarn.git#025b75f",
+    "@deputy/webpack-concat-plugin": "git+ssh://git@github.com:newscorpaus/webpack-concat-plugin.git#semver:^v3.1.0",
+    "cookie-signature": "1.0.2",
+    "handlebars-ex": "0.0.2"
+  }
 }
